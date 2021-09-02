@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import beachpic_uncropped from "../img/beachpic_uncropped.jpg";
-import modpic from "../img/modpic.jpg"
-
 import Navbar from "../components/Navbar";
 import Home from "../contents/Home";
-import About from "../contents/About";
-
-function getTest(test) {
-    return test.state.NavItemActive
-}
+import Wedding from "./Wedding";
+import Accommodations from './Accommodations';
+import RSVP from './RSVP';
+import Registry from './Registry';
 
 class HomeContainer extends Component {
 
@@ -29,29 +25,34 @@ class HomeContainer extends Component {
                 document.getElementById(this.state.NavItemActive).classList.add('active');
             });
         };
-        this.backgrounds={
-            'Home': beachpic_uncropped,
-            'About': modpic
-        }
     }   
 
     
     
     render() {
         return(
-            <div className="condivHome">
+            <div className="condivHome"
 
-            {/* style={{backgroundImage: `url(${this.state.stops.aboutBg})`,
+            style={{backgroundImage: `url(/${this.state.NavItemActive}.jpg)`,
             backgroundSize: 'Cover'
-            }}> */}
-            {console.log(this.state.NavItemActive)}
+            }}>
+            {console.log("url/"+this.state.NavItemActive+".jpg")}
                 <Router>
                 <Navbar activeitem={this.activeitem}/>
                 <Route exact path="/">
                 <Home />
                 </Route>
-                <Route path="/about">
-                <About />
+                <Route path="/wedding">
+                <Wedding />
+                </Route>
+                <Route path="/accommodations">
+                <Accommodations />
+                </Route>
+                <Route path="/registry">
+                <Registry />
+                </Route>
+                <Route path="/rsvp">
+                <RSVP />
                 </Route>
                 </Router>
             </div>

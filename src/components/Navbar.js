@@ -18,10 +18,10 @@ class Navbar extends Component {
             <nav>
                 <ul>
                     <Navitem item="Home" tolink="/" activec={this.props.activeitem}></Navitem>
-                    <Navitem item="About" tolink="/about" activec={this.props.activeitem}></Navitem>
-                    <Navitem item="Education" tolink="/education" activec={this.props.activeitem}></Navitem>
-                    <Navitem item="Skills" tolink="/skills" activec={this.props.activeitem}></Navitem>
-                    <Navitem item="Contact" tolink="/contact" activec={this.props.activeitem}></Navitem>
+                    <Navitem item="Wedding" tolink="/wedding" activec={this.props.activeitem}></Navitem>
+                    <Navitem item="Accommodations" tolink="/Accommodations" activec={this.props.activeitem}></Navitem>
+                    <Navitem item="Registry" tolink="/registry" activec={this.props.activeitem}></Navitem>
+                    <Navitem item="RSVP" tolink="/rsvp" activec={this.props.activeitem}></Navitem>
                 </ul>
                 
             </nav>
