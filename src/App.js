@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import {BrowserRouter as Router, Route} from "react-router-dom";
 
-import Navbar from "./components/Navbar";
-import Home from "./contents/Home";
-import About from "./contents/About"
+
+import beachpic_uncropped from "./img/beachpic_uncropped.jpg";
+import modpic from "./img/modpic.jpg"
+
+
+import HomeContainer from "./contents/HomeContainer";
 
 class App extends Component {
 
@@ -14,29 +16,22 @@ class App extends Component {
     /* Prepopulate the state of the component with image data for subsequnet the render */
     this.state = {
 
-        section : {
-            stops : [
-                { imagePath : 'https://wallpaperbrowse.com/media/images/background-wallpapers-26.jpg' },
-                { imagePath : 'https://wallpaperbrowse.com/media/images/704532.jpg' },
-                { imagePath : 'https://wallpaperbrowse.com/media/images/abstract-background-design_1297-88.jpg' }
-            ]
+        stops : {
+            homeBg : beachpic_uncropped,
+            aboutBg : modpic
         }
     }
   }
-
+  
   render() {
+    
+    // style={{backgroundImage: `url(${this.state.stops.aboutBg})`,
+    //     backgroundSize: 'Cover'
+    //     }}
   return (
-    <Router>
       <div className="App">
-        <Navbar />
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/about">
-          <About />
-        </Route>
+        <HomeContainer />
       </div>
-    </Router>
   )
 }
 }

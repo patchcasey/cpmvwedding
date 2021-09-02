@@ -17,11 +17,8 @@ font-family: 'Raleway';
 }
 .App
 {
-display: flex;
 width: 100vw;
 min-height: 100vh;
-background-image: url(./img/beachpic_uncropped.jpg);
-background-size: cover;
 }
 /* .condiv class is for the right side content container*/
 .condiv
@@ -32,13 +29,14 @@ opacity: 0.5;
 flex:var(--condiv-flex);
 }
 
-/* .condiv home class is for the right side content container*/
+/* .condivHome class is for the right side content container*/
 .condivHome
 {
   /* padding: 100px; */
   /* background-image: url(./img/beachpic_uncropped.jpg);
   background-size: cover; */
   /* flex:var(--condiv-flex); */
+  display: flex;
   width: 100vw;
   min-height: 100vh;
 }
