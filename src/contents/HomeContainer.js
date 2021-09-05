@@ -25,7 +25,17 @@ class HomeContainer extends Component {
                 document.getElementById(this.state.NavItemActive).classList.add('active');
             });
         };
-    }   
+        this.currentUrl = window.location.pathname
+    }
+
+    getCurrentUrl = () => {
+        let result;
+        if (window.location.pathname === "/") {
+             result = "/home";
+        } else
+        result = window.location.pathname;
+        return result;
+    }
 
     
     
@@ -33,10 +43,10 @@ class HomeContainer extends Component {
         return(
             <div className="condivHome"
 
-            style={{backgroundImage: `url(/${this.state.NavItemActive}.jpg)`,
+            style={{backgroundImage: `url(${this.getCurrentUrl()}.jpg)`,
             backgroundSize: 'Cover'
             }}>
-            {console.log("url/"+this.state.NavItemActive+".jpg")}
+                {console.log(`url(${this.getCurrentUrl()}.jpg)`)}
                 <Router>
                 <Navbar activeitem={this.activeitem}/>
                 <Route exact path="/">

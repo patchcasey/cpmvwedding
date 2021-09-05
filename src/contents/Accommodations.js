@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Education extends Component {
+class Accommodations extends Component {
     render() {
         return(
             <div className="condiv">
@@ -9,4 +9,4 @@ class Education extends Component {
     }
 }
 
-export default Education
+export default Accommodations
