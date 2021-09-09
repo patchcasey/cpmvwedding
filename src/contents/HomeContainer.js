@@ -48,6 +48,7 @@ class HomeContainer extends Component {
             }}>
                 {console.log(`url(${this.getCurrentUrl()}.jpg)`)}
                 <Router>
+                {console.log(this.props.mobileFlag)}
                 <Navbar activeitem={this.activeitem}/>
                 <Route exact path="/">
                 <Home />
