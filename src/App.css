@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 :root{
 --sidebar-flex:1.5;
 --condiv-flex:6;
 --fontsize-p:1.2rem;
 --fontsize-nav:1.6rem;
---typing-font:3rem;
+--fontsize-names:5rem;
+--fontsize-amp: 3.5rem;
+--fontsize-alt: 2rem;
 }
 *
 {
@@ -24,9 +28,11 @@ min-height: 100vh;
 .condiv
 {
 padding: 100px;
-background-color: #f4f5f9;
-opacity: 0.5;
+/* background-color: #f4f5f9;
+opacity: 0.5; */
 flex:var(--condiv-flex);
+position: relative;
+display: inline-block;
 }
 
 /* .condivHome class is for the right side content container*/
@@ -40,6 +46,49 @@ flex:var(--condiv-flex);
   width: 100vw;
   min-height: 100vh;
 }
+
+.nameBox
+{
+  /* display: inline-block; */
+  margin-bottom: 50px;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 5%;
+  text-align: center;
+}
+
+.titleDate 
+{
+  font-size: var(--fontsize-nav);
+}
+
+.marinaText
+{
+  font-size: var(--fontsize-names);
+  font-family: 'Lobster', cursive;
+}
+
+.altMarinaText
+{
+  font-size: var(--fontsize-alt);
+  font-family: 'Lobster', cursive;
+}
+
+.altCaseyText
+{
+  font-size: var(--fontsize-alt);
+  font-family: 'Comfortaa', cursive;
+}
+
+.caseyText{
+  font-size: var(--fontsize-names);
+  font-family: 'Comfortaa', cursive;
+}
+
+.amp
+{
+  font-size: var(--fontsize-amp);
+}
+
 nav
 {
 padding:60px 30px 0px 30px ;
