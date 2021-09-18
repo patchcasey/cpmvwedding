@@ -15,7 +15,7 @@ class Navbar extends Component {
 
     render() {
         return (
-            <nav>
+            <nav className='NavBar'>
                 <ul>
                     <Navitem item="Home" tolink="/" activec={this.props.activeitem}></Navitem>
                     <Navitem item="Wedding" tolink="/wedding" activec={this.props.activeitem}></Navitem>

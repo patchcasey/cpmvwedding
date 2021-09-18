@@ -7,6 +7,8 @@ import Wedding from "./Wedding";
 import Accommodations from './Accommodations';
 import RSVP from './RSVP';
 import Registry from './Registry';
+import NavButton from "../components/NavButton";
+import MobileNavBar from "../components/MobileNavBar";
 
 class HomeContainer extends Component {
 
@@ -49,7 +51,7 @@ class HomeContainer extends Component {
                 {console.log(`url(${this.getCurrentUrl()}.jpg)`)}
                 <Router>
                 {this.props.mobileFlag ? (
-                  <p>test</p>
+                  <MobileNavBar activeitem={this.activeitem}/>
                 ) : (
                   <Navbar activeitem={this.activeitem}/>
                 )
