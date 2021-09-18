@@ -109,7 +109,7 @@ display: inline-block;
   list-style: none;
   position: relative;
   top: 0;
-  background: darkcyan;
+  background: rgba(0,0,0,0.5);
   left: 0;
   bottom: 0;
   height: 100vh;
@@ -167,6 +167,11 @@ font-size: var(--fontsize-p);
 h1,h2,h3,h4,p
 {
 margin: 10px;
+}
+
+.cranPhoto {
+  max-width: 100%;
+  height: auto;
 }
 
 @media only screen and (max-width: 40em) {

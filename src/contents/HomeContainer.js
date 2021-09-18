@@ -7,7 +7,6 @@ import Wedding from "./Wedding";
 import Accommodations from './Accommodations';
 import RSVP from './RSVP';
 import Registry from './Registry';
-import NavButton from "../components/NavButton";
 import MobileNavBar from "../components/MobileNavBar";
 
 class HomeContainer extends Component {

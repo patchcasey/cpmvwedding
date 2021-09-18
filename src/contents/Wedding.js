@@ -7,8 +7,8 @@ return (
     <div className="nameBox">
         <span className="altCaseyText">We invite you to spend our wedding with us at </span>
         <span className="altMarinaText">Willowbend</span>
-        <img src='/willowbendcran.jpg' alt='willowbendcran'></img>
-        <span className="altCaseyText">Located in Mashpee, this working cranberry bog is a great place for a wedding!</span>
+        <img className="cranPhoto" src='/willowbendcran.jpg' alt='willowbendcran'></img>
+        <span className="altCaseyText">Located in Mashpee, this beautiful golf course and working cranberry bog is a great place for a wedding!</span>
     </div>
 
 </div>
