@@ -5,7 +5,7 @@ class Registry extends Component {
         return(
             <div className="condiv">
             <div className="nameBox">
-                <span className="altCaseyText">Coming Soon </span>
+                <span className="caseyText">Coming Soon </span>
             </div>
         
             </div>

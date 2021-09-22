@@ -9,6 +9,9 @@
 --fontsize-names:5rem;
 --fontsize-amp: 3.5rem;
 --fontsize-alt: 2rem;
+--fontsize-mobile-names:3.5rem;
+--fontsize-mobile-amp:2rem;
+--fontsize-mobile-alt:1.5rem;
 }
 *
 {
@@ -177,5 +180,32 @@ margin: 10px;
 @media only screen and (max-width: 40em) {
   .NavButton {
     display: block;
+  }
+  .condivHome {
+    position: relative;
+  }
+  .MobileNavBar {
+    position: absolute;
+    z-index: 2;
+  }
+  .condiv {
+    position: absolute;
+    z-index: 1;
+  }
+  .marinaText {
+    font-size: var(--fontsize-mobile-names);
+  }
+  .caseyText {
+    font-size: var(--fontsize-mobile-names);
+  }
+  .amp {
+    font-size: var(--fontsize-mobile-amp);
+  }
+  .titleDate 
+{
+  font-size: var(--fontsize-mobile-alt);
+}
+  .altCaseyText {
+    font-size: var(--fontsize-mobile-alt);
   }
 }
