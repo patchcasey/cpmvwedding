@@ -1,16 +1,21 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 
-
-// import beachpic_uncropped from "./img/beachpic_uncropped.jpg";
-// import modpic from "./img/modpic.jpg"
-
-
 import HomeContainer from "./contents/HomeContainer";
+import Login from "./contents/Login";
 
 function App() {
   
   const [windowDimension, setWindowDimension] = useState(null);
+  const [loggedIn, logSessionIn] = useState(false);
+
+  const handleSubmit = data => {
+    if (data['password'] === 'poop') {
+      logSessionIn(prev => !prev)
+    }
+
+    //use logSessionIn here
+    };
 
   useEffect(() => {
     setWindowDimension(window.innerWidth);
@@ -28,8 +33,10 @@ function App() {
   const isMobile = windowDimension <= 640;
 
   return (
+
       <div className="App">
-        <HomeContainer mobileFlag={isMobile}/>
+        {loggedIn ? (<HomeContainer mobileFlag={isMobile}/>) : 
+        (<Login onSubmit={handleSubmit}/>)}
       </div>
   )
 }
