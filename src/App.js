@@ -3,6 +3,7 @@ import './App.css';
 
 import HomeContainer from "./contents/HomeContainer";
 import Login from "./contents/Login";
+import pw from "./pw.json"
 
 function App() {
   
@@ -10,7 +11,7 @@ function App() {
   const [loggedIn, logSessionIn] = useState(false);
 
   const handleSubmit = data => {
-    if (data['password'] === 'poop') {
+    if (data['password'] === pw['password']) {
       logSessionIn(prev => !prev)
     }
 
