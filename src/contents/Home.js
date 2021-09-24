@@ -14,6 +14,9 @@ class Home extends Component {
                 <div className="nameBox">
                     <span className="titleDate">September 24, 2022</span>
                 </div>
+                <div className="nameBox">
+                    <span className="hashtag">#marinapatchopoulos<br/>#takingsuggestions</span>
+                </div>
             </div>
         )
     }

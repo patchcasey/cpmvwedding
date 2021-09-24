@@ -12,6 +12,8 @@
 --fontsize-mobile-names:3.5rem;
 --fontsize-mobile-amp:2rem;
 --fontsize-mobile-alt:1.5rem;
+--fontsize-mobile-hashtag:1rem;
+--fontsize-mobile-bullets:0.7rem;
 }
 *
 {
@@ -64,6 +66,11 @@ display: inline-block;
   font-size: var(--fontsize-nav);
 }
 
+.hashtag 
+{
+  font-size: var(--fontsize-nav);
+}
+
 .marinaText
 {
   font-size: var(--fontsize-names);
@@ -94,7 +101,13 @@ display: inline-block;
 
 .MobileNavBar {
   position: relative;
-  
+}
+
+.bulletText
+{
+  font-size: var(--fontsize-mobile-alt);
+  font-family: 'Comfortaa', cursive;
+  text-align: left;
 }
 
 .MobileNavBar button {
@@ -234,7 +247,14 @@ margin: 10px;
 {
   font-size: var(--fontsize-mobile-alt);
 }
+.hashtag 
+{
+  font-size: var(--fontsize-mobile-hashtag);
+}
   .altCaseyText {
     font-size: var(--fontsize-mobile-alt);
+  }
+  .bulletText {
+    font-size: var(--fontsize-mobile-bullets)
   }
 }

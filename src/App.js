@@ -36,8 +36,9 @@ function App() {
   return (
 
       <div className="App">
-        {loggedIn ? (<HomeContainer mobileFlag={isMobile}/>) : 
-        (<Login onSubmit={handleSubmit}/>)}
+        <HomeContainer mobileFlag={isMobile}/>
+        {/* {loggedIn ? (<HomeContainer mobileFlag={isMobile}/>) : 
+        (<Login onSubmit={handleSubmit}/>)} */}
       </div>
   )
 }
