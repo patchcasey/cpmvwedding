@@ -87,6 +87,15 @@ display: inline-block;
 {
   font-size: var(--fontsize-alt);
   font-family: 'Comfortaa', cursive;
+  color:black;
+}
+
+.pageLink
+{
+  font-family: 'Comfortaa', cursive;
+  color:black;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .addressText {

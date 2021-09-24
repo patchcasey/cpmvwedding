@@ -9,10 +9,25 @@ function App() {
   
   const [windowDimension, setWindowDimension] = useState(null);
   const [loggedIn, logSessionIn] = useState(false);
+  const [background, setBackground] = useState('');
+
+  const getCurrentUrl = () => {
+    console.log(window.location.pathname)
+    let result;
+    if (window.location.pathname === "/") {
+         result = "/home";
+    } else
+    result = window.location.pathname;
+    return result;
+  }
+
+  useEffect(() => {
+    window.addEventListener("url", getCurrentUrl);
+  }, []);
 
   const handleSubmit = data => {
     if (data['password'] === pw['password']) {
-      logSessionIn(prev => !prev)
+      logSessionIn(prev => !prev);
     }
 
     //use logSessionIn here
@@ -37,7 +52,7 @@ function App() {
 
       <div className="App">
         <HomeContainer mobileFlag={isMobile}/>
-        {/* {loggedIn ? (<HomeContainer mobileFlag={isMobile}/>) : 
+        {/* {loggedIn ? (<HomeContainer background={background} mobileFlag={isMobile}/>) : 
         (<Login onSubmit={handleSubmit}/>)} */}
       </div>
   )

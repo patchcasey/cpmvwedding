@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 const Field = React.forwardRef(({label, type}, ref) => {
     return (
@@ -11,15 +11,9 @@ const Field = React.forwardRef(({label, type}, ref) => {
 
 
 const Login = ({onSubmit}) => {
-    // const [pWord, setpWord] = useState('');
     const passwordRef = React.useRef();
 
-//     const handleClick = () => {
-//     passwordRef.current.value = '';
-//   };
-
     const handleSubmit = e => {
-        {console.log('run')};
         e.preventDefault();
         const data = {
             password: passwordRef.current.value

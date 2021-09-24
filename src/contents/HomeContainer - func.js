@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, withRouter } from "react-router-dom";
+import React, { useEffect, useState } from 'react';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Navbar from "../components/Navbar";
 import Home from "./Home";
@@ -9,28 +9,23 @@ import RSVP from './RSVP';
 import Registry from './Registry';
 import MobileNavBar from "../components/MobileNavBar";
 
-class HomeContainer extends Component {
+const HomeContainer = (props) => {
 
-    constructor(props)
-    {
-        super(props);
-        this.state={
-            'NavItemActive':''
-        };
-        this.activeitem=(x)=>
-        {
-            if (this.state.NavItemActive.length > 0) {
-                document.getElementById(this.state.NavItemActive).classList.remove('active');
-            }
-            this.setState({ 'NavItemActive': x }, () => {
-                document.getElementById(this.state.NavItemActive).classList.add('active');
-            });
-        };
-        this.currentUrl = window.location.pathname
+    const [NavItemActive, setNavItemActive] = useState('')
+
+    const activeitem = (x) => {
+
+        //todo make activeitem work
+        if (this.NavItemActive.length > 0) {
+            document.getElementById(this.state.NavItemActive).classList.remove('active');
+        }
+        this.setState({ 'NavItemActive': x }, () => {
+            document.getElementById(this.state.NavItemActive).classList.add('active');
+        });
     }
 
-    getCurrentUrl = () => {
-        // console.log(window.location.pathname);
+    const getCurrentUrl = () => {
+        {console.log(window.location.pathname)}
         let result;
         if (window.location.pathname === "/") {
              result = "/home";
@@ -39,21 +34,27 @@ class HomeContainer extends Component {
         return result;
     }
 
+    useEffect(() => {
+        {console.log('useeffect')}
+        getCurrentUrl();
+    }, []);
+
     
     
-    render() {
         return(
             <div className="condivHome"
 
             // style={{backgroundImage: `url(${this.props.background}.jpg)`,
-            style={{backgroundImage: `url(${this.getCurrentUrl()}.jpg)`,
+            style={{backgroundImage: `url(${getCurrentUrl()}.jpg)`,
             backgroundSize: 'Cover'
             }}>
+                {console.log(props.background)}
+                {console.log(`url(${getCurrentUrl()}.jpg)`)}
                 <Router>
-                {this.props.mobileFlag ? (
-                  <MobileNavBar activeitem={this.activeitem}/>
+                {props.mobileFlag ? (
+                  <MobileNavBar activeitem={activeitem}/>
                 ) : (
-                  <Navbar activeitem={this.activeitem}/>
+                  <Navbar activeitem={activeitem}/>
                 )
                 }
                 <Route exact path="/">
@@ -74,7 +75,6 @@ class HomeContainer extends Component {
                 </Router>
             </div>
         )
-    }
 }
 
-export default HomeContainer
+// export default HomeContainer
