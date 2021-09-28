@@ -9,6 +9,11 @@
 --fontsize-names:5rem;
 --fontsize-amp: 3.5rem;
 --fontsize-alt: 2rem;
+--fontsize-mobile-names:3.5rem;
+--fontsize-mobile-amp:2rem;
+--fontsize-mobile-alt:1.5rem;
+--fontsize-mobile-hashtag:1rem;
+--fontsize-mobile-bullets:0.9rem;
 }
 *
 {
@@ -51,12 +56,45 @@ display: inline-block;
 {
   /* display: inline-block; */
   margin-bottom: 50px;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.6);
+  padding: 5%;
+  text-align: center;
+}
+
+.accomBox
+{
+  /* display: inline-block; */
+  margin-bottom: 50px;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 5%;
+  text-align: center;
+}
+
+.loginForm {
+  position: relative;
+}
+
+.loginField {
+  maximum-scale: 1;
+  initial-scale: 1;
+  font-size:16px;
+}
+
+.titleBox
+{
+  /* display: inline-block; */
+  margin-bottom: 50px;
+  background: rgba(255, 255, 255, 0.6);
   padding: 5%;
   text-align: center;
 }
 
 .titleDate 
+{
+  font-size: var(--fontsize-nav);
+}
+
+.hashtag 
 {
   font-size: var(--fontsize-nav);
 }
@@ -77,6 +115,20 @@ display: inline-block;
 {
   font-size: var(--fontsize-alt);
   font-family: 'Comfortaa', cursive;
+  color:black;
+}
+
+.pageLink
+{
+  font-family: 'Comfortaa', cursive;
+  color:black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.addressText {
+  font-size: var(--fontsize-mobile-alt);
+  font-family: 'Comfortaa', cursive;
 }
 
 .caseyText{
@@ -89,7 +141,47 @@ display: inline-block;
   font-size: var(--fontsize-amp);
 }
 
-nav
+.MobileNavBar {
+  position: absolute;
+}
+
+.bulletText
+{
+  font-size: var(--fontsize-mobile-alt);
+  font-family: 'Comfortaa', cursive;
+  text-align: left;
+}
+
+.MobileNavBar button {
+  position: fixed;
+  left: 40px;
+  top: 40px;
+  z-index: 10;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+.menuNav {
+  overflow-y: scroll;
+  list-style: none;
+  position: relative;
+  top: 0;
+  background: rgba(0,0,0,0.5);
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 0;
+  overflow: hidden;
+  max-width: 290px;
+  opacity: 0.5;
+}
+
+.menuNav.showMenu {
+  width: 100%;
+}
+
+.NavBar
 {
 padding:60px 30px 0px 30px ;
 flex:var(--sidebar-flex);
@@ -115,6 +207,9 @@ a
     text-decoration: none;
     color: white;
 }
+.bulletList {
+  padding-left: 5%;
+}
 
 /* css for active class */
 .active
@@ -133,4 +228,91 @@ font-size: var(--fontsize-p);
 h1,h2,h3,h4,p
 {
 margin: 10px;
+}
+
+.cranPhoto {
+  max-width: 100%;
+  height: auto;
+}
+
+.Button{
+  cursor: pointer;
+  padding: 8px 24px; 
+  color: #ffffff;
+  border: none;
+  border-radius: 10px; 
+  font-family: 'Montserrat';
+  height: 100%;
+
+}
+
+.Button:hover{
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(to right, #FFF 50%, #d8dc1b 90%, #FFF 100%);
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  
+  animation: waves 1.5s forwards ease-out;
+}
+
+@keyframes waves {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@media only screen and (max-width: 40em) {
+  .NavButton {
+    display: block;
+  }
+  .condivHome {
+    position: relative;
+  }
+  .MobileNavBar {
+    position: absolute;
+    z-index: 2;
+  }
+  .condiv {
+    position: absolute;
+    height: 500px;
+    z-index: 1;
+  }
+  .nameBox {
+    height: inherit;
+    overflow: auto;
+  }
+    .accomBox {
+    height: inherit;
+    overflow: auto;
+    max-width: 60%
+  }
+  .marinaText {
+    font-size: var(--fontsize-mobile-names);
+  }
+  .caseyText {
+    font-size: var(--fontsize-mobile-names);
+  }
+  .amp {
+    font-size: var(--fontsize-mobile-amp);
+  }
+  .titleDate 
+{
+  font-size: var(--fontsize-mobile-alt);
+}
+.hashtag 
+{
+  font-size: var(--fontsize-mobile-hashtag);
+}
+  .altCaseyText {
+    font-size: var(--fontsize-mobile-alt);
+  }
+  .addressText {
+    font-size: var(--fontsize-mobile-hashtag);
+  }
+  .bulletText {
+    font-size: var(--fontsize-mobile-bullets)
+  }
 }

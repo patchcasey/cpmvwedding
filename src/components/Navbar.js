@@ -1,33 +1,23 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Navitem from './Navitem'
 
-class Navbar extends Component {
+const Navbar = (props) => {
 
-    // constructor(props)
-    // {
-    //     super(props);
-    //     this.state={
-    //         'NavItemActive':''
-    //     }
-    // }
+    const doNothing =() => {};
 
-    
-
-    render() {
         return (
-            <nav>
+            <nav className='NavBar'>
                 <ul>
-                    <Navitem item="Home" tolink="/" activec={this.props.activeitem}></Navitem>
-                    <Navitem item="Wedding" tolink="/wedding" activec={this.props.activeitem}></Navitem>
-                    <Navitem item="Accommodations" tolink="/Accommodations" activec={this.props.activeitem}></Navitem>
-                    <Navitem item="Registry" tolink="/registry" activec={this.props.activeitem}></Navitem>
-                    <Navitem item="RSVP" tolink="/rsvp" activec={this.props.activeitem}></Navitem>
+                    <Navitem item="Home" tolink="/" activec={props.activeitem} closeNavBar={doNothing}></Navitem>
+                    <Navitem item="Wedding" tolink="/wedding" activec={props.activeitem} closeNavBar={doNothing}></Navitem>
+                    <Navitem item="Accommodations" tolink="/Accommodations" activec={props.activeitem} closeNavBar={doNothing}></Navitem>
+                    <Navitem item="Registry" tolink="/registry" activec={props.activeitem} closeNavBar={doNothing}></Navitem>
+                    <Navitem item="RSVP" tolink="/rsvp" activec={props.activeitem} closeNavBar={doNothing}></Navitem>
                 </ul>
                 
             </nav>
             
         )
-    }
 }
 
 export default Navbar
