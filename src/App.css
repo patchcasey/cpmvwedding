@@ -70,6 +70,16 @@ display: inline-block;
   text-align: center;
 }
 
+.loginForm {
+  position: relative;
+}
+
+.loginField {
+  maximum-scale: 1;
+  initial-scale: 1;
+  font-size:16px;
+}
+
 .titleBox
 {
   /* display: inline-block; */
