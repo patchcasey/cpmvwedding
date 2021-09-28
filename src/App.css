@@ -114,7 +114,7 @@ display: inline-block;
 }
 
 .MobileNavBar {
-  position: relative;
+  position: absolute;
 }
 
 .bulletText
