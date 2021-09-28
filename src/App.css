@@ -71,13 +71,23 @@ display: inline-block;
 }
 
 .loginForm {
-  position: relative;
+  position: absolute;
+  padding-top: 50%;
+  padding-left:10%;
 }
 
-.loginField {
-  maximum-scale: 1;
-  initial-scale: 1;
-  font-size:16px;
+.loginButton {
+  float: left;
+}
+
+input {
+  border-radius: 10px;
+  box-shadow: 5px 10px #888888;
+  /* rgba(0,0,0,0.5); */
+}
+
+.loginDiv {
+  display: inline-block;
 }
 
 .titleBox

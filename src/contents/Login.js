@@ -21,15 +21,16 @@ const Login = ({onSubmit}) => {
         onSubmit(data);
         passwordRef.current.value = ''
     };
-    // add meta tag https://stackoverflow.com/questions/37734150/how-to-update-meta-tags-in-react-js
 
     return (
+      <div className="loginDiv">
         <form className="loginForm"onSubmit={handleSubmit} >
-        <Field className="loginField" ref={passwordRef} label="Password: " type="password" />
         <div>
-          <button type="submit" >Submit</button>
+        <Field ref={passwordRef} label="Password: " type="password" /> 
+        <button className="loginButton" type="submit" >Submit</button>
         </div>
       </form>
+      </div>
     )
 }
 
