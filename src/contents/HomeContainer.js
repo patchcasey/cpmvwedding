@@ -45,8 +45,8 @@ class HomeContainer extends Component {
         return(
             <div className="condivHome"
 
-            // style={{backgroundImage: `url(${this.props.background}.jpg)`,
-            style={{backgroundImage: `url(${this.getCurrentUrl()}.jpg)`,
+            style={{backgroundImage: `url(${this.props.background}.jpg)`,
+            // style={{backgroundImage: `url(${this.getCurrentUrl()}.jpg)`,
             backgroundSize: 'Cover'
             }}>
                 <Router>

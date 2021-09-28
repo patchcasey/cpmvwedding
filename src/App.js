@@ -12,17 +12,18 @@ function App() {
   const [background, setBackground] = useState('');
 
   const getCurrentUrl = () => {
-    console.log(window.location.pathname)
     let result;
     if (window.location.pathname === "/") {
          result = "/home";
     } else
     result = window.location.pathname;
+    setBackground(result);
     return result;
   }
-
+  
   useEffect(() => {
-    window.addEventListener("url", getCurrentUrl);
+    setBackground(getCurrentUrl());
+    window.addEventListener("click", getCurrentUrl);
   }, []);
 
   const handleSubmit = data => {
@@ -51,7 +52,7 @@ function App() {
   return (
 
       <div className="App">
-        <HomeContainer mobileFlag={isMobile}/>
+        <HomeContainer mobileFlag={isMobile} background={background}/>
         {/* {loggedIn ? (<HomeContainer background={background} mobileFlag={isMobile}/>) : 
         (<Login onSubmit={handleSubmit}/>)} */}
       </div>
