@@ -4,7 +4,7 @@ class Accommodations extends Component {
     render() {
         return(
             <div className="condiv">
-            <div className="nameBox">
+            <div className="accomBox">
                 <span className="altCaseyText">We invite you to stay close to the action (beach)in Yarmouth or Harwichport
                 <br/>
                 <br/>

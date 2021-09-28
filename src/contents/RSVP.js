@@ -4,8 +4,8 @@ class RSVP extends Component {
     render() {
         return(
    <div className="condiv">
-    <div className="nameBox">
-        <span className="caseyText">Coming Soon </span>
+    <div className="titleBox">
+        <span className="amp">Coming Soon </span>
     </div>
 
     </div>

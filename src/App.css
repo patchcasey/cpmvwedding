@@ -56,7 +56,25 @@ display: inline-block;
 {
   /* display: inline-block; */
   margin-bottom: 50px;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.6);
+  padding: 5%;
+  text-align: center;
+}
+
+.accomBox
+{
+  /* display: inline-block; */
+  margin-bottom: 50px;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 5%;
+  text-align: center;
+}
+
+.titleBox
+{
+  /* display: inline-block; */
+  margin-bottom: 50px;
+  background: rgba(255, 255, 255, 0.6);
   padding: 5%;
   text-align: center;
 }
@@ -249,7 +267,17 @@ margin: 10px;
   }
   .condiv {
     position: absolute;
+    height: 500px;
     z-index: 1;
+  }
+  .nameBox {
+    height: inherit;
+    overflow: auto;
+  }
+    .accomBox {
+    height: inherit;
+    overflow: auto;
+    max-width: 60%
   }
   .marinaText {
     font-size: var(--fontsize-mobile-names);
