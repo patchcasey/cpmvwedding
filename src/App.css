@@ -135,6 +135,11 @@ input {
   text-decoration: underline;
   cursor: pointer;
 }
+.wLink {
+  font-family: 'Lobster', cursive;
+  color: black;
+  cursor: pointer;
+}
 
 .addressText {
   font-size: var(--fontsize-mobile-alt);
@@ -297,7 +302,6 @@ margin: 10px;
     .accomBox {
     height: inherit;
     overflow: auto;
-    max-width: 60%
   }
   .marinaText {
     font-size: var(--fontsize-mobile-names);
