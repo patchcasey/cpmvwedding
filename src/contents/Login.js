@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Field = React.forwardRef(({label, type}, ref) => {
     return (
@@ -11,6 +11,7 @@ const Field = React.forwardRef(({label, type}, ref) => {
 
 
 const Login = ({onSubmit}) => {
+  const [wrongM, setWrongM] = useState('')
     const passwordRef = React.useRef();
 
     const handleSubmit = e => {
@@ -19,16 +20,24 @@ const Login = ({onSubmit}) => {
             password: passwordRef.current.value
         };
         onSubmit(data);
-        passwordRef.current.value = ''
+        passwordRef.current.value = '';
+        setWrongM('Incorrect password!');
     };
 
     return (
-      <div className="loginDiv">
+      <div className="loginDiv" 
+      style={{backgroundImage: `url(/marathon.jpg)`, backgroundSize: 'Cover'}}>
         <form className="loginForm"onSubmit={handleSubmit} >
         <div>
         <Field ref={passwordRef} label="Password: " type="password" /> 
         <button className="loginButton" type="submit" >Submit</button>
         </div>
+        <br/>
+        
+        <div><span className="addressText">Hint: a very Casey password</span></div>
+        <br/>
+        <br/>
+        <div><span className="amp">{wrongM}</span></div>
       </form>
       </div>
     )
