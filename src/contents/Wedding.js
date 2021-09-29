@@ -6,7 +6,7 @@ return (
 <div className="condiv">
     <div className="nameBox">
         <span className="altCaseyText">We invite you to spend our wedding with us at </span>
-        <span className="altMarinaText">Willowbend</span>
+        <span className="altMarinaText" color="black"><a className="wLink" href="https://willowbendcapecod.com/weddings/" color="black">Willowbend</a></span>
         <br />
         <img className="cranPhoto" src='/willowbendcran.jpg' alt='willowbendcran'></img>
         <br />
