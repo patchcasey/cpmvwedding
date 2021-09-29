@@ -6,11 +6,12 @@ return (
 <div className="condiv">
     <div className="nameBox">
         <span className="altCaseyText">We invite you to spend our wedding with us at </span>
+        <br/>
         <span className="altMarinaText" color="black"><a className="wLink" href="https://willowbendcapecod.com/weddings/" color="black">Willowbend</a></span>
         <br />
         <img className="cranPhoto" src='/willowbendcran.jpg' alt='willowbendcran'></img>
         <br />
-        <span className="altCaseyText">Located in Mashpee, this beautiful golf course and working cranberry bog. <br/>
+        <span className="altCaseyText">Located in Mashpee, it is a beautiful golf course and working cranberry bog. <br/>
         <br/><b>Reasons we love it:</b></span>
         <span className="bulletText">
         {/* make bullet font smaller and aligned left */}
