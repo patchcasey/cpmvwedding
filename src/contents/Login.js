@@ -34,7 +34,7 @@ const Login = ({onSubmit}) => {
         </div>
         <br/>
         
-        <div><span className="addressText">Hint: a very Casey password</span></div>
+        <div><span className="addressText">Hint: you can probably guess this password</span></div>
         <br/>
         <br/>
         <div><span className="amp">{wrongM}</span></div>
