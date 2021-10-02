@@ -24,6 +24,7 @@ const MobileNavBar = (props) => {
                     <Navitem item="Accommodations" tolink="/Accommodations" activec={props.activeitem} closeNavBar={handleToggle}></Navitem>
                     <Navitem item="Registry" tolink="/registry" activec={props.activeitem} closeNavBar={handleToggle}></Navitem>
                     <Navitem item="RSVP" tolink="/rsvp" activec={props.activeitem} closeNavBar={handleToggle}></Navitem>
+                    <Navitem item="Investors" tolink="/investors" activec={props.activeitem} closeNavBar={handleToggle}></Navitem>
                 </ul>
     </nav>
     )

@@ -8,6 +8,7 @@ import Accommodations from './Accommodations';
 import RSVP from './RSVP';
 import Registry from './Registry';
 import MobileNavBar from "../components/MobileNavBar";
+import Investors from "./Investors";
 
 class HomeContainer extends Component {
 
@@ -70,6 +71,9 @@ class HomeContainer extends Component {
                 </Route>
                 <Route path="/rsvp">
                 <RSVP />
+                </Route>
+                <Route path="/investors">
+                <Investors />
                 </Route>
                 </Router>
             </div>
