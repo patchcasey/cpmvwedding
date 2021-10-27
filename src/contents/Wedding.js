@@ -9,7 +9,6 @@ return (
         <br/>
         <span className="altMarinaText" color="black"><a className="wLink" href="https://willowbendcapecod.com/weddings/" color="black">Willowbend</a></span>
         <br />
-        <img className="cranPhoto" src='/willowbendcran.jpg' alt='willowbendcran'></img>
         <br />
         <span className="altCaseyText">Located in Mashpee, it is a beautiful golf course and working cranberry bog. <br/>
         <br/><b>Reasons we love it:</b></span>
@@ -30,6 +29,7 @@ return (
             <b>Willowbend Country Club</b><br/>
             100 Willowbend Dr, Mashpee, MA 02649
         </span>
+        <img className="cranPhoto" src='/willowbendcran.jpg' alt='willowbendcran'></img>
     </div>
 
 </div>
