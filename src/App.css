@@ -370,6 +370,20 @@ margin: 10px;
   .loginForm {
     position: absolute;
     padding-top: 50%;
-    padding-left:10%;
+    padding-left: 10%;
+    padding-right: 0%;
+  }
+  .loginBox {
+    background: rgba(255,255,255,0.7);
+    display: auto;
+    flex-flow: auto;
+    align-items: auto;
+    justify-content: auto;
+  }
+  .loginTextBox {
+    background: rgba(255,255,255,0.7);
+    flex-flow: auto;
+    align-items: auto;
+    justify-content: auto;
   }
 }
