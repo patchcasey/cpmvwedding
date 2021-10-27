@@ -52,6 +52,24 @@ display: inline-block;
   min-height: 100vh;
 }
 
+.loginBox {
+  background:rgba(255, 255, 255, 0.7);
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  /* text-align: center; */
+}
+
+.loginTextBox {
+  background:rgba(255, 255, 255, 0.7);
+  flex-flow: row wrap;
+  align-items:center;
+  text-align: center;
+}
+
 .nameBox
 {
   /* display: inline-block; */
@@ -59,6 +77,8 @@ display: inline-block;
   background: rgba(255, 255, 255, 0.6);
   padding: 5%;
   text-align: center;
+  height: 80vh;
+  overflow: auto;
 }
 
 .accomBox
@@ -71,21 +91,40 @@ display: inline-block;
 }
 
 .loginForm {
- 
+ padding-top: 35%;
+ padding-left: 3%;
+ padding-right:70%
 }
 
 .loginButton {
   float: left;
+  transition-duration: 0.4s;
+  background-color: white;
+  color: black;
+  border: 2px solid #4c4eaf;
+  border-radius: 10px;
+  font-size:var(--fontsize-mobile-bullets);
+  padding: 3px;
+  margin-left: 10px;
+}
+.loginButton:hover {
+  background-color: #4c4eaf;
+  color: white;
 }
 
 input {
   border-radius: 10px;
-  box-shadow: 5px 10px #888888;
+  
   /* rgba(0,0,0,0.5); */
+}
+.no-outline:focus {
+  outline: none;
 }
 
 .loginDiv {
   display: inline-block;
+  width: 100vw;
+  min-height: 100vh;
 }
 
 .titleBox

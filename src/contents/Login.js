@@ -4,7 +4,7 @@ const Field = React.forwardRef(({label, type}, ref) => {
     return (
       <div>
         <label>{label}</label>
-        <input ref={ref} type={type} />
+        <input className="no-outline" ref={ref} type={type} />
       </div>
     );
 });
@@ -26,18 +26,18 @@ const Login = ({onSubmit}) => {
 
     return (
       <div className="loginDiv" 
-      style={{backgroundImage: `url(/marathon.jpg)`, backgroundSize: 'Cover'}}>
+      style={{backgroundImage: `url(/snow.jpg)`, backgroundSize: 'Cover'}}>
         <form className="loginForm"onSubmit={handleSubmit} >
-        <div>
+        <div className="loginBox">
         <Field ref={passwordRef} label="Password: " type="password" /> 
         <button className="loginButton" type="submit" >Submit</button>
         </div>
         <br/>
         
-        <div><span className="addressText">Hint: her last name + his last name, lowercase & one word</span></div>
+        <div className="loginTextBox"><span className="addressText">Hint: her last name + his last name<br/> lowercase & one word</span></div>
         <br/>
         <br/>
-        <div><span className="amp">{wrongM}</span></div>
+        <div className="loginTextBox"><span className="amp">{wrongM}</span></div>
       </form>
       </div>
     )

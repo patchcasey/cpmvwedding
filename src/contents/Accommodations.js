@@ -37,7 +37,7 @@ class Accommodations extends Component {
                 <ol className="bulletList">
                     <li>Willowbend Villas, Call Beth Britt for info: 508-539-5359</li>
                     <li><a className="pageLink" href="https://redjacketresorts.com/resorts/red-jacket-beach-resort">Red Jacket</a> Click the link, many options for groups & on the beach.</li>
-                    <li>Airbnb. Do your worst.</li>
+                    <li>Airbnb. We recommend Harwichport or Yarmouth.</li>
                 </ol>
                 </span>
                 </span>
