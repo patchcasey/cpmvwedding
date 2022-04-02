@@ -141,7 +141,8 @@ input {
   background: rgba(255, 255, 255, 0.6);
   text-align: center;
   padding: 5%;
-  height: 800px;
+  height: 500px;
+  width: 260px;
 }
 
 .titleDate 
