@@ -52,9 +52,9 @@ function App() {
   return (
 
       <div className="App">
-        {/*<HomeContainer mobileFlag={isMobile} background={background}/>*/}
-        {loggedIn ? (<HomeContainer background={background} mobileFlag={isMobile}/>) : 
-        (<Login onSubmit={handleSubmit}/>)}
+        <HomeContainer mobileFlag={isMobile} background={background}/>
+        {/* {loggedIn ? (<HomeContainer background={background} mobileFlag={isMobile}/>) : 
+        (<Login onSubmit={handleSubmit}/>)} */}
       </div>
   )
 }
