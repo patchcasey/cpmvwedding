@@ -5,31 +5,47 @@ render() {
 return (
 <div className="condiv">
     <div className="nameBox">
-        <span className="altCaseyText">We invite you to spend our wedding with us at </span>
-        <br/>
-        <span className="altMarinaText" color="black"><a className="wLink" href="https://willowbendcapecod.com/weddings/" color="black">Willowbend</a></span>
+        <span className="titleText" color="black">Welcome</span>
         <br />
         <br />
-        <span className="altCaseyText">Located in Mashpee, it is a beautiful golf course and working cranberry bog. <br/>
-        <br/><b>Reasons we love it:</b></span>
-        <span className="bulletText">
-        {/* make bullet font smaller and aligned left */}
-        <ul className="bulletList">
-            <li>The barn reminds us of the mods.</li>
-            <li>Casey golfs now!</li>
-            <li>We couldn't not be on Cape Cod for our wedding... Harwich was booked.</li>
-            <li>Duncan will be at the ceremony.</li>
-            <li>We can throw a big ass party.</li>
-            <li>The venue has TVs if there is a night game (aka Notre Dame).</li>
-        </ul>
-        </span>
+        <span className="altCaseyText">To the wedding of</span>
         <br/>
         <br/>
-        <span className="addressText">
-            <b>Willowbend Country Club</b><br/>
-            100 Willowbend Dr, Mashpee, MA 02649
+        <span className="weddingNamesText">MARINA VRANOS
+        <br/>&
+        <br />
+        CASEY PATCH</span>
+        <br/>
+        <br/>
+        <span className="altCaseyText">September 24, 2022</span><br/><br/>
+        <span className="titleText" color="black">The Ceremony</span>
+        <br/>
+        <span className="weddingNamesText">Four Thirty in the Afternoon</span>
+        <br/>
+        <br/>
+        <span className="altCaseyText">Processional
+        <br/>Readings
+        <br/>Exchange of Vows
+        <br/>Exchange of Rings
+        <br/>We get friggin' married
+        <br/>We dance our asses off
         </span>
-        <img className="cranPhoto" src='/willowbendcran.jpg' alt='willowbendcran'></img>
+        <br/>
+        <span className="titleText" color="black">Cocktail Reception</span>
+        <br/>
+        <span className="weddingNamesText">Five O'Clock in the Afternoon</span>
+        <br/>
+        <span className="titleText" color="black">Dinner and Dancing</span>
+        <br/>
+        <span className="weddingNamesText">Six O'Clock in the Evening</span><br/>
+        <span className="altCaseyText">put your greek dancing shoes on</span>
+        <br/>
+        <br/>
+        <span className="titleText" color="black">Thank You</span><br/>
+        <span className="altCaseyText">We would like to thank our family and friends for joining us to celebrate on the Cape. You are all so special to us.</span>
+        <br/>
+        <span className="weddingNamesText">Love, Marina & Casey (and Duncan)</span>
+
     </div>
 
 </div>

@@ -5,10 +5,13 @@ class Accommodations extends Component {
         return(
             <div className="condiv">
             <div className="nameBox">
-                <span className="altCaseyText">We invite you to stay close to the action (beach) in Yarmouth or Harwichport
-                <br/>
-                <br/>
-                We have blocks at two hotels in Yarmouth and will have a bus to and from Yarmouth, as well as Harwichport if you prefer your own rental.
+                <span className="titleText">Accommodations and Transportation</span>
+                <span className="smallCaseyText">
+                <br/><br/>
+                <u>Transportation</u>:
+                <br/><br/>
+                3:30pm busses will leave from Yarmouth (from hotels below) and Harwichport (location tbd).<br/>
+                The hotel blocks below are in Yarmouth, we invite you to find accommodations in Harwichport if you prefer.
                 <br/>
                 <br/>
                 <u>Hotel Blocks</u>:
@@ -33,12 +36,10 @@ class Accommodations extends Component {
                 <br/>
                 <b>Other Options</b>
                 <br/>
-                <span className="bulletText">
-                <ol className="bulletList">
-                    <li>Willowbend Villas, Call Beth Britt for info: 508-539-5359</li>
-                    <li><a className="pageLink" href="https://redjacketresorts.com/resorts/red-jacket-beach-resort">Red Jacket</a> Click the link, many options for groups & on the beach.</li>
-                    <li>Airbnb. We recommend Harwichport or Yarmouth.</li>
-                </ol>
+                <span>
+                Willowbend Villas, Call Beth Britt for info: 508-539-5359<br/>
+                <a className="pageLink" href="https://redjacketresorts.com/resorts/red-jacket-beach-resort">Red Jacket</a> Click the link, many options for groups & on the beach.<br/>
+                Airbnb. We recommend Harwichport or Yarmouth.<br/>
                 </span>
                 </span>
             </div>
