@@ -169,6 +169,11 @@ input {
   font-size: var(--fontsize-names);
   font-family: 'Dancing Script', cursive;
 }
+.smallTitleText
+{
+  font-size: var(--fontsize-names);
+  font-family: 'Dancing Script', cursive;
+}
 
 .weddingNamesText
 {
@@ -241,7 +246,7 @@ input {
 
 .registryIFrame
 {
-  height: 600px;
+  height: 700px;
   width: 100%;
   border: none;
   overflow: hidden;
@@ -362,7 +367,7 @@ margin: 10px;
 @media only screen and (max-width: 40em) {
   .registryIFrame {
   height: 500px;
-  width:280px;
+  width:100%;
   border: none;
   overflow: hidden;
   }
@@ -377,14 +382,15 @@ margin: 10px;
     z-index: 2;
   }
   .condiv {
-    position: absolute;
+    padding: 100px 15px 100px 15px;
+    /* position: absolute; */
     height: 500px;
+    width: 100%;
     z-index: 1;
   }
   .nameBox {
     height: inherit;
     overflow: auto;
-    width: 120%;
   }
     .accomBox {
     height: inherit;
@@ -392,6 +398,9 @@ margin: 10px;
   }
   .titleText {
     font-size: var(--fontsize-mobile-names);
+  }
+  .smallTitleText {
+    font-size: var(--fontsize-mobile-amp);
   }
   .marinaText {
     font-size: var(--fontsize-mobile-names);

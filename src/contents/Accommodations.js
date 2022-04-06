@@ -5,7 +5,7 @@ class Accommodations extends Component {
         return(
             <div className="condiv">
             <div className="nameBox">
-                <span className="titleText">Accommodations and Transportation</span>
+                <span className="smallTitleText">Accommodations and Transportation</span>
                 <span className="smallCaseyText">
                 <br/><br/>
                 <u>Transportation</u>:
@@ -37,9 +37,9 @@ class Accommodations extends Component {
                 <b>Other Options</b>
                 <br/>
                 <span>
-                Willowbend Villas, Call Beth Britt for info: 508-539-5359<br/>
-                <a className="pageLink" href="https://redjacketresorts.com/resorts/red-jacket-beach-resort">Red Jacket</a> Click the link, many options for groups & on the beach.<br/>
-                Airbnb. We recommend Harwichport or Yarmouth.<br/>
+                » Willowbend Villas, Call Beth Britt for info: 508-539-5359<br/>
+                <a className="pageLink" href="https://redjacketresorts.com/resorts/red-jacket-beach-resort">» Red Jacket</a> Click the link, many options for groups & on the beach.<br/>
+                » Airbnb. We recommend Harwichport or Yarmouth.<br/>
                 </span>
                 </span>
             </div>
