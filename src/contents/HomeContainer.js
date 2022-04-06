@@ -8,6 +8,8 @@ import Accommodations from './Accommodations';
 import RSVP from './RSVP';
 import Registry from './Registry';
 import MobileNavBar from "../components/MobileNavBar";
+import WeddingParty from './WeddingParty';
+import Schedule from './Schedule';
 
 class HomeContainer extends Component {
 
@@ -61,6 +63,12 @@ class HomeContainer extends Component {
                 </Route>
                 <Route path="/wedding">
                 <Wedding />
+                </Route>
+                <Route path="/party">
+                <WeddingParty />
+                </Route>
+                <Route path="/schedule">
+                <Schedule />
                 </Route>
                 <Route path="/accommodations">
                 <Accommodations />

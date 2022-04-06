@@ -21,6 +21,8 @@ const MobileNavBar = (props) => {
         <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
                     <Navitem item="Home" tolink="/" activec={props.activeitem} closeNavBar={handleToggle}></Navitem>
                     <Navitem item="Wedding" tolink="/wedding" activec={props.activeitem} closeNavBar={handleToggle}></Navitem>
+                    <Navitem item="Wedding Party" tolink="/party" activec={props.activeitem} closeNavBar={handleToggle}></Navitem>
+                    <Navitem item="Schedule" tolink="/schedule" activec={props.activeitem} closeNavBar={handleToggle}></Navitem>
                     <Navitem item="Accommodations" tolink="/Accommodations" activec={props.activeitem} closeNavBar={handleToggle}></Navitem>
                     <Navitem item="Registry" tolink="/registry" activec={props.activeitem} closeNavBar={handleToggle}></Navitem>
                     <Navitem item="RSVP" tolink="/rsvp" activec={props.activeitem} closeNavBar={handleToggle}></Navitem>

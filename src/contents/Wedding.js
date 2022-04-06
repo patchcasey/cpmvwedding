@@ -45,7 +45,8 @@ return (
         <span className="altCaseyText">We would like to thank our family and friends for joining us to celebrate on the Cape. You are all so special to us.</span>
         <br/>
         <span className="weddingNamesText">Love, Marina & Casey (and Duncan)</span>
-
+        <br/><br/><br/>
+        <span className="smallTitleText">Cocktail Attire</span>
     </div>
 
 </div>

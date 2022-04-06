@@ -28,7 +28,7 @@ class Accommodations extends Component {
                 <br/>In the box that says "Group Code" enter code  <b>VPW</b>   then click "Check Rooms and Rates".  The block rates and room options will appear.
                 <br/>Note:  this code and rate is only available until July 10, 2022.
                 <br/><b>
-                <a className="pageLink" href="https://www.HamptonInnCapeCod.com">Link to book</a>
+                <a className="pageLink" href="https://www.hilton.com/en/hotels/hyncchx-hampton-suites-cape-cod-west-yarmouth/">Link to book</a>
                 </b>
 
                 <br/><br/>99 MA-28, West Yarmouth, MA 02673 
