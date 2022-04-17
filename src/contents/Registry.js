@@ -18,7 +18,7 @@ class Registry extends Component {
                {/* <div className="registryBox"> */}
                     <iframe 
                     className={"registryIFrame"}
-                    src={'../zola.html'}
+                    src={'/zola.html'}
                     title={"registry"}
                     // style={{ height: '500px', width:"280px", border:"none", overflow:"hidden"}}
                     ></iframe>
