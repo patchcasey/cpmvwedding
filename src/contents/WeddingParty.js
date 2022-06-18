@@ -30,6 +30,12 @@ export default function WeddingParty() {
                     Mark Vranos<br/>
                     Michael Mahan<br/>
                 </span>
+                <br/>
+                <span className="weddingNamesText">Officiant</span>
+                <br/>
+                <span className="altCaseyText">
+                    Ellie Kennedy
+                </span>
             </div>
         </div>
     )

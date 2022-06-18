@@ -16,8 +16,7 @@ class Accommodations extends Component {
                 <br/>
                 <u>Hotel Blocks</u>:
                 <br/><br/><b>The Surf & Sand Beach Motel</b>
-                <br/>This cute beachfront inn is as Cape-y as it gets. Since the beach hasn't changed since Jaws™, you must book by phone to join the block.
-                <br/>If they ask "who do you know here?" say "Marina Vranos and the Patch-Vranos Wedding". Please note it requires a 2 night minimum
+                <br/>This cute beachfront inn is as Cape-y as it gets. You must book by phone to join the block - please mention the Patch-Vranos Wedding. Please note it requires a 2 night minimum
                 <br/><b>508-398-2341</b>
                 <br/><br/>277 S Shore Dr, South Yarmouth, MA 02664
                 <br/><br/><b>The Hampton Inn & Suites West Yarmouth</b>
