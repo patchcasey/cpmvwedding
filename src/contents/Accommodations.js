@@ -63,9 +63,7 @@ class Accommodations extends Component {
                 We recommend checking out our hotel blocks in Yarmouth Port, or getting an Airbnb in Harwich Port in order to take advantage of busses to and from the venue. Check out the options above!
                 <br/><br/>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13787.462974948417!2d-97.7525361!3d30.240904849999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e4d293e7c0267d%3A0xe2bb1dbef8ce90e1!2sWillowbend%20Country%20Club!5e0!3m2!1sen!2sus!4v1657551963191!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style={{border: 0}}
+                className={"mapIFrame"}
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade">

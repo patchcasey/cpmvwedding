@@ -271,6 +271,14 @@ input {
   overflow: hidden;
 }
 
+.mapIFrame
+{
+  height: 450px;
+  width: 600px;
+  border: none;
+  overflow: hidden;
+}
+
 .MobileNavBar button {
   position: fixed;
   left: 40px;
@@ -386,9 +394,15 @@ margin: 10px;
 @media only screen and (max-width: 40em) {
   .registryIFrame {
   height: 500px;
-  width:100%;
+  width: 100%;
   border: none;
   overflow: hidden;
+  }
+  .mapIFrame {
+    height: 250px;
+    width: 100%;
+    border: none;
+    overflow: hidden;
   }
   .NavButton {
     display: block;
