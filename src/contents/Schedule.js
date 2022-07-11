@@ -27,7 +27,7 @@ export default function Schedule() {
             <br />
             <br />
             <span className="weddingNamesText">Brunch</span><br/><br/>
-            <span className="altCaseyText">Time TBD @ 43 Sea Street, Harwich Port **Please park at the top of Sea Street in the church lot or across the street in the municipal lot
+            <span className="altCaseyText">10am-12pm @ 43 Sea Street, Harwich Port **Please park at the top of Sea Street in the church lot or across the street in the municipal lot
             <br/><br/> Some bites to fuel your journey off cape</span>
             </div>
         </div>

@@ -1,8 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
+import HotelBanner from '../components/HotelBanner';
 
 class Home extends Component {
     render() {
         return(
+            <Fragment>
             <div className="condiv">
                 <div className="titleBox">
                     <span className="marinaText">Marina</span>
@@ -18,6 +20,7 @@ class Home extends Component {
                     <span className="hashtag">#marinapatchopoulos<br/>#takingsuggestions</span>
                 </div>
             </div>
+            </Fragment>
         )
     }
 }
