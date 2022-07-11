@@ -244,6 +244,25 @@ input {
   text-align: left;
 }
 
+.hotelBanner
+{
+  position: sticky;
+  width: 100%;
+  z-index: 1;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  text-align: center;
+  background-color: #d0021b;
+  padding: 10px 0px 10px 0px;
+}
+
+.hotelBannerText
+{
+  text-align: center;
+  margin: 0;
+}
+
 .registryIFrame
 {
   height: 700px;

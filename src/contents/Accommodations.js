@@ -10,8 +10,10 @@ class Accommodations extends Component {
                 <br/><br/>
                 <u>Transportation</u>:
                 <br/><br/>
-                3:30pm busses will leave from Yarmouth (from hotels below) and Harwichport (location tbd).<br/>
-                The hotel blocks below are in Yarmouth, we invite you to find accommodations in Harwichport if you prefer.
+                <h2>3:30pm busses will leave from two locations</h2> from Yarmouth (from Surf & Sand, and Hampton Inn) and Harwich Port (554 MA-28, Harwich Port, MA 02646 - Municipal Lot).
+                <br/>
+                <br/>
+                The hotel blocks below are in Yarmouth, we invite you to find accommodations in Harwich Port if you prefer.
                 <br/>
                 <br/>
                 <u>Hotel Blocks</u>:
@@ -37,7 +39,10 @@ class Accommodations extends Component {
                 <br/>
                 <span>
                 » Willowbend Villas, Call Beth Britt for info: 508-539-5359<br/>
-                <a className="pageLink" href="https://redjacketresorts.com/resorts/red-jacket-beach-resort">» Red Jacket</a> Click the link, many options for groups & on the beach.<br/>
+                <a className="pageLink" href="https://redjacketresorts.com/resorts/red-jacket-beach-resort">» Red Jacket</a> Click the link, many options for groups & on the beach.
+                <br />
+                <a className="pageLink" href="https://wequassett.com/">» Wequassett Resort</a>
+                <br/>
                 » Airbnb. We recommend Harwichport or Yarmouth.<br/>
                 </span>
                 </span>

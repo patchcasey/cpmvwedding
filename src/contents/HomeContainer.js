@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, withRouter } from "react-router-dom";
-
+import HotelBanner from "../components/HotelBanner";
 import Navbar from "../components/Navbar";
 import Home from "./Home";
 import Wedding from "./Wedding";
@@ -10,6 +10,8 @@ import Registry from './Registry';
 import MobileNavBar from "../components/MobileNavBar";
 import WeddingParty from './WeddingParty';
 import Schedule from './Schedule';
+import Travel from './Travel';
+import ThingsToDo from './ThingsToDo';
 
 class HomeContainer extends Component {
 
@@ -52,6 +54,7 @@ class HomeContainer extends Component {
             backgroundSize: 'Cover'
             }}>
                 <Router>
+                
                 {this.props.mobileFlag ? (
                   <MobileNavBar activeitem={this.activeitem}/>
                 ) : (
@@ -72,6 +75,12 @@ class HomeContainer extends Component {
                 </Route>
                 <Route path="/accommodations">
                 <Accommodations />
+                </Route>
+                <Route path="/travel">
+                <Travel />
+                </Route>
+                <Route path="/thingstodo">
+                <ThingsToDo />
                 </Route>
                 <Route path="/registry">
                 <Registry />
