@@ -10,7 +10,6 @@ import Registry from './Registry';
 import MobileNavBar from "../components/MobileNavBar";
 import WeddingParty from './WeddingParty';
 import Schedule from './Schedule';
-import Travel from './Travel';
 import ThingsToDo from './ThingsToDo';
 
 class HomeContainer extends Component {
@@ -75,9 +74,6 @@ class HomeContainer extends Component {
                 </Route>
                 <Route path="/accommodations">
                 <Accommodations />
-                </Route>
-                <Route path="/travel">
-                <Travel />
                 </Route>
                 <Route path="/thingstodo">
                 <ThingsToDo />

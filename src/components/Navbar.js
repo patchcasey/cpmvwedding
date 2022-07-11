@@ -14,7 +14,6 @@ const Navbar = (props) => {
                     <Navitem item="RSVP" tolink="/rsvp" activec={props.activeitem} closeNavBar={doNothing}></Navitem>
                     <Navitem item="Schedule" tolink="/schedule" activec={props.activeitem} closeNavBar={doNothing}></Navitem>
                     <Navitem item="Accommodations" tolink="/Accommodations" activec={props.activeitem} closeNavBar={doNothing}></Navitem>
-                    <Navitem item="Travel" tolink="/travel" activec={props.activeitem} closeNavBar={doNothing}></Navitem>
                     <Navitem item="Things to do" tolink="/thingstodo" activec={props.activeitem} closeNavBar={doNothing}></Navitem>
                     <Navitem item="Registry" tolink="/registry" activec={props.activeitem} closeNavBar={doNothing}></Navitem>
                 </ul>
