@@ -274,7 +274,7 @@ input {
 .mapIFrame
 {
   height: 450px;
-  width: 600px;
+  width: 100%;
   border: none;
   overflow: hidden;
 }
