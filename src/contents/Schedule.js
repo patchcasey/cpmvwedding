@@ -7,14 +7,15 @@ export default function Schedule() {
             <span className="titleText" color="black">Schedule for the Weekend</span>
             <br />
             <br />
-            <span className="weddingNamesText">We are excited to host some fun gatherings in locations that are special to us. Please join for as much or as little as you would like.</span>
+            <span className="weddingNamesText">We are excited to host some fun gatherings in locations that are special to us. Please join for as much or as little as you would like and are able.</span>
             <br/>
             <span className="titleText" color="black">Friday</span>
             <br />
             <br />
             <span className="weddingNamesText">Welcome Drinks</span><br/><br/>
-            <span className="altCaseyText">Time TBD @ Sea Street Beach (GPS: 1 Sea Street, Harwich Port) **Please park at the top of Sea Street in the church lot
-            <br/><br/> Please join us for a casual beer on the beach!</span>
+            <span className="altCaseyText">7pm-9pm @ 43 Sea Street, Harwich Port, MA 02646 **Please park at the top of Sea Street in the church lot across the street
+            <br/><br/>Please join us for a casual beer in the backyard!</span>
+            <br/>
             <br/>
             <span className="titleText" color="black">Saturday</span>
             <br />
@@ -22,6 +23,7 @@ export default function Schedule() {
             <span className="weddingNamesText">Wedding</span><br/><br/>
             <span className="altCaseyText">4:30pm @ Willowbend (GPS: 100 Willowbend Dr, Mashpee)
             <br/><br/> You know... The reason for this whole website</span>
+            <br/>
             <br/>
             <span className="titleText" color="black">Sunday</span>
             <br />

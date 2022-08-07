@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import HotelBanner from './components/HotelBanner';
 import HomeContainer from "./contents/HomeContainer";
-import Login from "./contents/Login";
 import pw from "./pw.json"
 
 function App() {
@@ -52,7 +50,6 @@ function App() {
   return (
 
       <div className="App">
-        <HotelBanner />
         <HomeContainer mobileFlag={isMobile} background={background}/>
         {/* {loggedIn ? (<HomeContainer background={background} mobileFlag={isMobile}/>) : 
         (<Login onSubmit={handleSubmit}/>)} */}
