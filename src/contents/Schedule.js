@@ -14,7 +14,7 @@ export default function Schedule() {
             <br />
             <span className="weddingNamesText">Welcome Drinks</span><br/><br/>
             <span className="altCaseyText">7pm-9pm @ 43 Sea Street, Harwich Port, MA 02646 **Please park at the top of Sea Street in the church lot across the street
-            <br/><br/>Please join us for a casual beer in the backyard!</span>
+            <br/><br/>If you arrive to the Cape early, please join us for a casual beer in the backyard!</span>
             <br/>
             <br/>
             <span className="titleText" color="black">Saturday</span>
