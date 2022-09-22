@@ -10,7 +10,7 @@ class Accommodations extends Component {
                 <br/><br/>
                 <u>Transportation</u>:
                 <br/><br/>
-                <h2>3:30pm busses will leave from two locations</h2> from Yarmouth (from Surf & Sand, and Hampton Inn) and Harwich Port (554 MA-28, Harwich Port, MA 02646 - Municipal Lot).
+                <h2> 3:15pm busses will leave from two locations</h2> from Yarmouth (from Surf & Sand at 3:15, and Hampton Inn at 3:25) and Harwich Port (Harwich Chamber of Commerce, 1 School House Rd, Harwichport, MA 02646).
                 <br/>
                 <br/>
                 The hotel blocks below are in Yarmouth, we invite you to find accommodations in Harwich Port if you prefer.
