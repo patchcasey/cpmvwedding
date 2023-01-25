@@ -5,6 +5,7 @@
   - [npm test](#npm-test)
   - [npm run build](#npm-run-build)
 - [Deployment](#deployment)
+- [Copyright](#copyright)
 
 ## Background
 
@@ -36,3 +37,6 @@ Your app is ready to be deployed!
 
 This website was deployed manually using AWS Amplify. I should go back and add the [CDK](https://aws.amazon.com/cdk/) code that represents what was deployed, but I have other more pressing things to do. That being said, Amplify is super easy and an excellent way to deploy a website quickly and inexpensively.
 
+## Copyright
+
+All materials, images, texts, logos, photographs, or illustrations featured are for individual information only and as such are offered on an 'as is' basis. Any other use of graphic material found on the site including mirroring, copying, or resuing any media or content on the site is prohibited without the express written consent of patchcasey. Visitors are permitted, and encouraged to link to this repo and the site listed above. Any form of reproduction, electronic or otherwise, is strictly forbitten without prior written consent. If you have any questions about these terms, or would like information about licensing images and/or materials from patchcasey, please contact us.
